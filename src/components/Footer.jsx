@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-orange-500 to-orange-500 text-white mt-24">
+    <footer className="bg-gradient-to-r from-orange-500 to-orange-400 text-white mt-24">
       <div className="max-w-5xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-4 gap-20">
         
         {/* About Section */}

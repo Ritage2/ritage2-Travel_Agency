@@ -155,7 +155,7 @@ export default function Home() {
                     onClick={() =>
                       setActiveOffer(activeOffer === offer.id ? null : offer.id)
                     }
-                    className="px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition"
+                    className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition"
                   >
                     {activeOffer === offer.id ? "Cancel" : "Book Now"}
                   </button>
