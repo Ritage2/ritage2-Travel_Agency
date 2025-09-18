@@ -12,9 +12,9 @@ export default function Login() {
 
   return (
     <div className="w-full min-h-screen  flex items-center justify-center px-4">
-      <div className="bg-white rounded-2xl p-8 w-full max-w-md shadow-2xl shadow-orange-500/50">
+      <div className="bg-white rounded-2xl p-8 w-full max-w-md shadow-2xl shadow-blue-500/50">
         {/* Title */}
-        <h2 className="text-3xl md:text-4xl font-extrabold mb-8 text-center text-orange-600">
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-8 text-center text-sky-800">
           Welcome Back 
         </h2>
         <p className="text-center text-gray-500 mb-8">
@@ -27,19 +27,19 @@ export default function Login() {
             <input
               type="email"
               placeholder="Email Address"
-              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400"
+              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-sky-400"
            required />
           </div>
           <div>
             <input
               type="password"
               placeholder="Password"
-              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400"
+              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-sky-400"
            required />
           </div>
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-orange-500 to-orange-400 text-white py-3 rounded-xl font-semibold"
+            className="w-full bg-gradient-to-r from-blue-500 to-sky-400 text-white py-3 rounded-xl font-semibold"
           >
             Login
           </button>
@@ -48,7 +48,7 @@ export default function Login() {
        
         <div className="mt-6 flex justify-between items-center text-sm text-gray-500">
           
-          <Link to="/signup" className="hover:text-orange-600">
+          <Link to="/signup" className="hover:text-sky-600">
             Create account
           </Link>
         </div>
